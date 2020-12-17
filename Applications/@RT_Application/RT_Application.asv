@@ -1,0 +1,8 @@
+classdef RT_Application < handle
+    
+   methods (Abstract)
+        train(C)    % train classifier
+        test(C)     % test data
+    end % methods (Abstract)
+    
+end
